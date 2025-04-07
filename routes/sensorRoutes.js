@@ -1,5 +1,5 @@
 const express = require("express");
-const SensorData = require("../models/sensorData");
+const SensorData = require("../models/SensorData");
 
 const router = express.Router();
 

@@ -16,7 +16,7 @@ app.use(cors());
 
 // Import Routes
 const sensorRoutes = require("./routes/sensorRoutes");
-const SensorData = require("./models/sensorData");
+const SensorData = require("./models/SensorData");
 
 // Use Routes
 app.use("/api", sensorRoutes);
